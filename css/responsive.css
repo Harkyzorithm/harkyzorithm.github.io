@@ -40,13 +40,14 @@
 	.menu {
 		display: none;
 	}
-	/*.logo {
+	.logo {
 		float: left;
 		height: 50px;
 		width: 50px;
-	}*/
+	}
 	.header.sticky {
 		padding: 10px 0px;
+		align-items: center;
 	}
 	.mobile-bar {
 		float: right;
