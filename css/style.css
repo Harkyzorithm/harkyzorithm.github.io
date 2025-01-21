@@ -1100,6 +1100,10 @@ p{
 .footer {
 	background: #000;
 }
+.f_logo {
+	height: 200px;
+	width: 200px;
+}
 .footer_w_item p {
 	line-height: 30px;
 	color: #999;
@@ -2635,6 +2639,13 @@ p{
   background: #f26c4f;
   border-color: #f26c4f;
   color: #fff;
+}
+.main-logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: none;
+	width:100px;
+	height: 100px;
 }
 .mobile-logo {
 	margin-bottom: 30px;
