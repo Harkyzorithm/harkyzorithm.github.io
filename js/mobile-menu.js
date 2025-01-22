@@ -20,7 +20,7 @@
     
     $offcanvasNav.on('click', 'li a, li .menu-expand', function(e) {
         var $this = $(this);
-        if ( ($this.parent().attr('class').match(/\b(menu-item-has-children|has-children|has-sub-menu)\b/)) && ($this.attr('href') === '#' || $this.hasClass('menu-expand')) ) {
+        if ( ($this.parent().attr('class').match(/\b(menu-item|has-children|has-sub-menu)\b/)) && ($this.attr('href') === '#' || $this.hasClass('menu-expand')) ) {
             e.preventDefault();
             if ($this.siblings('ul:visible').length){
                 $this.siblings('ul').slideUp('slow');
@@ -31,7 +31,7 @@
         }
         if( $this.is('a') || $this.is('span') || $this.attr('clas').match(/\b(menu-expand)\b/) ){
         	$this.parent().toggleClass('menu-open');
-        }else if( $this.is('li') && $this.attr('class').match(/\b('menu-item-has-children')\b/) ){
+        }else if( $this.is('li') && $this.attr('class').match(/\b('menu-item')\b/) ){
         	$this.toggleClass('menu-open');
         }
     });
