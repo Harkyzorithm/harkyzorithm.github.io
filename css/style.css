@@ -2415,7 +2415,7 @@ p{
 #preloader .preloader span:last-child {
 	animation-delay: -0.8s;
 	-webkit-animation-delay: -0.8s;
-	background-color: green;
+	background-color: #0877be;
 }
 
 @keyframes preloader {
