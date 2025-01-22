@@ -347,7 +347,7 @@ p{
 	color: #e37400;
 }
 .menu-item a:hover {
-	color: color: #e37400;
+	color:#e37400;
 }
 .menu ul li .menu-item::after {
 	color: #e37400;
@@ -2643,7 +2643,7 @@ p{
 .canvas_close a:hover {
   background: #e37400;
   border-color: #e37400;
-  color: #fff;
+  color: #e37400;
 }
 .main-logo {
 	float: left;
@@ -2669,8 +2669,8 @@ p{
   }
 }
 .canvas_open a:hover {
-  color: #fe3737;
-  border-color: #fe3737;
+  color: #e37400;
+  border-color: #e37400;
 }
 .error-404 {
 	padding: 100px 0px;
