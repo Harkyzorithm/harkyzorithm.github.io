@@ -246,11 +246,19 @@ p{
 .menu ul li:hover > a {
 	color: #e37400;
 }
+.menu nav ul li:hover > a {
+	color: #e37400;
+}
 .transparent-header-2 .menu ul li a {
 	padding: 30px 20px;
 }
 .transparent-header-2 .menu nav ul li > ul > li:hover > ul {
 	top: -3px;
+	color: #e37400;
+}
+.transparent-header-2 .menu nav ul li:hover > a {
+	top: -3px;
+	color: #e37400;
 }
 .transparent-header-2 .menu nav ul li > ul > li a {
 	padding: 15px 14px;
@@ -596,13 +604,13 @@ p{
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 	-webkit-text-stroke-width: 1.5px;
-	-webkit-text-stroke-color: #b0b0b0;
-	color: transparent;
+	-webkit-text-stroke-color: #e37400;
+	color: #fff;
 }
 .about-social span a:hover {
 	background: #e37400;
 	-webkit-text-stroke-width: 1.5px;
-	-webkit-text-stroke-color: #fff;
+	-webkit-text-stroke-color: transparent;
 	transform: translateY(-5px);
 }
 .button-1.button-2 {

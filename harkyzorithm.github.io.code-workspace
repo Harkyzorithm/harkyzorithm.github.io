@@ -6,6 +6,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Harkyzorithm"
+		"liveServer.settings.multiRootWorkspaceName": "Harkyzorithm",
+		"liveServer.settings.port": 5501
 	}
 }
