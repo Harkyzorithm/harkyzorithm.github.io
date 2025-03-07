@@ -225,6 +225,9 @@ p{
 	font-size: 34px;
 	cursor: pointer;
 }
+.main_menu nav ul li a:hover{
+	color:#e37400;
+}
 .menu {
 	float: right;
 	margin-right: 20px;
