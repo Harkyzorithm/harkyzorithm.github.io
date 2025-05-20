@@ -726,15 +726,15 @@
                 <section class="contact-form">
                     <h3 class="h3 form-title">Contact Form</h3>
 
-                    <form action="#" class="form" data-form>
+                    <form  onsubmit="sendMail(); return false;" class="form" data-form>
                         <div class="input-wrapper">
-                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                            <input type="text" name="fullname" class="form-input" id="name" required data-form-input>
+                            <input type="email" name="email" id="email" class="form-input" placeholder="Email Address" required data-form-input>
                         </div>
 
-                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+                        <textarea name="message" class="form-input" id="message" placeholder="Your Message" required data-form-input=""></textarea>
 
-                        <button class="form-btn" type="submit" disabled data-form-btn>
+                        <button class="form-btn" type="submit" name="submit" onsubmit="sendMail()">
                             <ion-icon name="paper-plane"></ion-icon>
                             <span>Send Message</span>
                         </button>
@@ -745,8 +745,22 @@
     </main>
 
     <script src="main.js"></script>
+    <script src="contact.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "JxHTkm-Fuii-2QjvS",
+      });
+   })();
+</script>
 </body>
 </html>
